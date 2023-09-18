@@ -1,0 +1,79 @@
+footer {
+    position: relative;
+    width: 100%;
+    background: rgb(25, 25, 25);
+    height: 200px;
+    padding: 20px 0px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+footer .redes-sociales,
+footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: nowrap;
+}
+
+footer .redes-sociales li,
+footer .menu li {
+    list-style: none;
+}
+
+footer .redes-sociales li a {
+    font-size: 2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    opacity: 0.50;
+}
+
+footer .redes-sociales li a:hover {
+    transform: translateY(-10px);
+    opacity: 1;
+}
+
+footer .menu li a {
+    font-size: 1.2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.50;
+}
+
+footer .menu li a:hover {
+    opacity: 1;
+}
+
+footer .p-footer {
+    color: grey;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+@media(max-width:480px) {
+    footer {
+        height: 200px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    footer .menu li a {
+        font-size: 1em;
+        color: white;
+        margin-right: 0;
+        padding-left: 0;
+    }
+}

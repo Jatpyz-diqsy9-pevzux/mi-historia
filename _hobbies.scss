@@ -1,0 +1,1053 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Itim&family=Mulish:ital,wght@0,300;0,400;1,200;1,300&family=Playfair+Display&family=Poppins&family=Roboto&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body-hobbie {
+    background-image: url(../img/fondo-hobbies.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.h1-hobbies {
+    padding: 20px;
+    padding-left: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: white;
+    border-color: rgba(172, 172, 172, 0.517);
+    border-style: double;
+}
+
+.header-hobbie {
+    position: relative;
+}
+
+/* ########## nav  ######### */
+.nav-hobbies {
+    background-color: rgba(107, 107, 107, 0.051);
+    border-style: double;
+    border-color: rgba(172, 172, 172, 0.517);
+    display: flex;
+    justify-content: center;
+    transition: 0.7s;
+}
+
+.nav-hobbies:hover {
+    background-color: rgba(0, 0, 0, 0.453);
+    border-color: rgba(97, 97, 97, 0.384);
+    transition: 0.8s;
+}
+
+.ul-hobbies {
+    margin-top: 15px;
+    display: flex;
+    list-style-type: none;
+}
+
+.li-hobbies {
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.li-hobbies:hover {
+    margin: 10px;
+    padding-top: 40px;
+    transition: 0.5s;
+}
+
+.a-header-hobbies {
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: 0.5s;
+}
+
+.a-header-hobbies:hover {
+    font-size: 2.5rem;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 50px;
+    transition: 0.7s;
+
+}
+
+/* ########## SECTION  ######### */
+.contenedor-h2-p1 {
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.082);
+    border-style: double;
+    border-color: rgba(172, 172, 172, 0.517);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0px;
+    display: grid;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.contenedor-h2-p1:hover {
+    background-color: rgba(0, 0, 0, 0.778);
+    color: white;
+    border-color: rgba(172, 172, 172, 0.491);
+    transition: 1s;
+    opacity: 1;
+}
+
+.h2-hobbies {
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+.p-1 {
+    margin: 20px;
+    font-size: 1.5rem;
+    margin: 50px;
+}
+
+/* ########## 1 ######### */
+
+.container-videos {
+    color: rgb(182, 180, 180);
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row: auto;
+    justify-content: space-around;
+    border-color: rgba(172, 172, 172, 0.491);
+    border-style: double;
+    overflow: auto;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container-videos:hover {
+    background-color: rgba(0, 0, 0, 0.778);
+    opacity: 1;
+    transition: 1s;
+}
+
+.videos-hobbies {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-color: rgb(129, 130, 130);
+    border-style: double;
+    transition: 0.5s;
+}
+
+.videos-hobbies:hover {
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-color: rgb(129, 130, 130);
+    border-style: double;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+
+.p-videos {
+    background-color: rgba(0, 0, 0, 0.637);
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 20px;
+    padding-top: 10px;
+    padding: 20px;
+    height: 250px;
+    width: 300px;
+    border-color: grey;
+    border-style: double;
+    overflow: auto;
+}
+
+/* ########## final ######### */
+
+/* ##########  bootstrap  ######### */
+
+.articulo-hobbie {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.articulo-hobbie:hover {
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.h3-hobbies {
+    font-size: 3.5rem;
+    color: white;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-boots {
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 0;
+    transition: 1.5s;
+}
+
+.container-boots:hover {
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+    opacity: 1;
+    transition: 1.5s;
+}
+
+.accordion {
+    background-color: rgba(110, 110, 110, 0);
+    padding: 10px;
+    border-style: double;
+    border-color: rgba(172, 172, 172, 0.491);
+    padding: 20px;
+}
+
+/* ########## exterior del acordion######### */
+
+/* ########## interior del acordion######### */
+
+.accordion-item {
+    padding: 0px;
+}
+
+.accordion-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.687), 10px, rgba(0, 0, 0, 0.591)), url(../img/glass-hobbies.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+
+}
+
+
+.accordion-button {
+    background-color: cadetblue;
+}
+
+
+.material-symbols-outlined {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.687), 10px, rgba(0, 0, 0, 0.591)), url(../img/glass-hobbies.jpeg);
+    margin: 10px;
+    height: 10px;
+    width: 10px;
+    overflow: scroll;
+}
+
+.titulo-acordion {
+    font-size: 1.5rem;
+}
+
+.accordion-collapse {
+    background-color: bisque;
+}
+
+.accordion-body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.571), 10px, rgba(0, 0, 0, 0.591)), url(../img/pinos-hobbies.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+
+
+.imagen-luces {
+    height: 600px;
+    border-radius: 40px;
+}
+
+.p-acordion-luces {
+    color: white;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+.p-acordion-canto {
+    color: white;
+    font-size: 1.2rem;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto;
+    overflow: scroll;
+    margin: 20px;
+}
+
+.hillsong-ba {
+    color: black;
+}
+
+.hillsong-ba:hover {
+    color: blue
+}
+
+
+
+
+.videos-canto {
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+// ##########################################################
+// ######################       #############################
+// ######################  1250  #############################
+// ######################       #############################
+// ##########################################################
+// ##########################################################
+
+
+@media(max-width:1250px) {
+    .h1-hobbies {
+        padding: 20px;
+        padding-left: 30px;
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        border-color: rgba(172, 172, 172, 0.517);
+        border-style: double;
+    }
+
+    .header-hobbie {
+        position: relative;
+    }
+
+    /* ########## nav  ######### */
+    .nav-hobbies {
+        background-color: rgba(107, 107, 107, 0);
+        border-style: double;
+        border-color: rgba(172, 172, 172, 0.517);
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        transition: 0.7s;
+        padding-left: 0px;
+        margin-top: 10px;
+        opacity: 1;
+    }
+
+    .nav-hobbies:hover {
+        background-color: rgba(0, 0, 0, 0.875);
+        border-color: rgba(97, 97, 97, 0.384);
+        transition: 0.4s;
+        opacity: 1;
+    }
+
+    .ul-hobbies {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        margin-left: 0px;
+        list-style-type: none;
+    }
+
+    .li-hobbies {
+        border-style: double;
+        border-color: rgba(255, 255, 255, 0.195);
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.088);
+        padding-left: 20px;
+        margin-right: 100px;
+        margin-left: 40px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        transition: 0.5s;
+        padding: 10px;
+    }
+
+    .li-hobbies:hover {
+        margin: 25px;
+        margin-left: 0px;
+        padding: 15px;
+        padding-top: 15px;
+        transition: 0.5s;
+    }
+
+    .a-header-hobbies {
+        border-style: double;
+        border-color: rgba(255, 255, 255, 0.47);
+        font-family: 'Playfair Display', serif;
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        margin: 0px;
+        margin-top: 0px;
+        padding: 5px;
+        padding-right: 50px;
+        transition: 0.5s;
+    }
+
+    .a-header-hobbies:hover {
+        border-style: double;
+        border-color: rgba(255, 255, 255, 0.758);
+        font-size: 1.2rem;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 100px;
+        padding-left: 100px;
+        margin: 0px;
+        margin-left: 30px;
+        transition: 0.7s;
+
+    }
+
+    /* ########## SECTION  ######### */
+    .contenedor-h2-p1 {
+        opacity: 1;
+        color: rgba(255, 255, 255, 0.522);
+        border-style: double;
+        border-color: rgba(172, 172, 172, 0.517);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: grid;
+        text-align: center;
+        transition: 1s;
+    }
+
+    .contenedor-h2-p1:hover {
+        background-color: rgba(0, 0, 0, 0.879);
+        color: white;
+        border-color: rgba(172, 172, 172, 0.491);
+        transition: 0.3s;
+        opacity: 1;
+    }
+
+    .h2-hobbies {
+        font-size: 1.7rem;
+        margin-top: 0px;
+    }
+
+    .p-1 {
+        margin: 20px;
+        font-size: 1.1rem;
+        margin: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* ########## 1 ######### */
+
+    .container-videos {
+        color: rgb(182, 180, 180);
+        margin-bottom: 10px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-row: auto;
+        justify-content: space-around;
+        border-color: rgba(172, 172, 172, 0.491);
+        border-style: double;
+        overflow: auto;
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+
+    .container-videos:hover {
+        background-color: rgba(0, 0, 0, 0.941);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .videos-hobbies {
+        height: 150px;
+        width: 170px;
+        padding: 0px;
+        margin-top: 10px;
+        border-radius: 20px;
+        border-color: rgb(129, 130, 130);
+        border-style: double;
+        transition: 0.5s;
+    }
+
+    .videos-hobbies:hover {
+        height: 550px;
+        width: 420px;
+        padding: 0px;
+        margin-top: 10px;
+        border-radius: 20px;
+        border-color: rgb(129, 130, 130);
+        border-style: double;
+        transition: 0.5s;
+        opacity: 1;
+    }
+
+
+    .p-videos {
+        background-color: rgba(0, 0, 0, 0.637);
+        text-align: center;
+        font-size: 1.1rem;
+        margin: 10px;
+        padding: 30px;
+        height: 200px;
+        width: 400px;
+        border-color: grey;
+        border-style: double;
+        overflow: auto;
+    }
+
+    /* ########## final ######### */
+
+    /* ##########  bootstrap  ######### */
+
+    .articulo-hobbie {
+        border-style: double;
+        border-color: rgba(255, 255, 255, 0.421);
+        opacity: 0.2;
+        transition: 0.5s;
+        margin-top: 10px;
+    }
+
+    .articulo-hobbie:hover {
+        border-style: double;
+        border-color: rgba(255, 255, 255, 0.421);
+        background-color: rgba(0, 0, 0, 0.817);
+        opacity: 1;
+        transition: 0.8s;
+        margin-top: 25px;
+    }
+
+    .h3-hobbies {
+
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        border-style: double;
+        border-color: rgba(255, 255, 255, 0.421);
+        font-size: 2.5rem;
+        color: white;
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .container-boots {
+        background-color: rgba(255, 255, 255, 0);
+        opacity: 1;
+        transition: 1.5s;
+    }
+
+    .container-boots:hover {
+        background-color: rgba(255, 255, 255, 0);
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .accordion {
+        background-color: rgba(110, 110, 110, 0);
+        padding: 10px;
+        border-style: double;
+        border-color: rgba(172, 172, 172, 0.491);
+        padding: 20px;
+    }
+
+    /* ########## exterior del acordion######### */
+
+    /* ########## interior del acordion######### */
+
+    .accordion-item {
+        padding: 0px;
+    }
+
+    .accordion-header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.687), 10px, rgba(0, 0, 0, 0.591)), url(../img/glass-hobbies.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+
+    }
+
+
+    .accordion-button {
+        background-color: rgba(95, 158, 160, 0);
+    }
+
+    .material-symbols-outlined {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.687), 10px, rgba(0, 0, 0, 0.591)), url(../img/glass-hobbies.jpeg);
+        margin: 5px;
+        height: 5px;
+        width: 10px;
+        overflow: scroll;
+    }
+
+    .material-symbols-outlined {
+        padding-inline-start: 0px;
+    }
+
+    .titulo-acordion {
+        font-size: 1.5rem;
+    }
+
+    .accordion-collapse {
+        background-color: bisque;
+    }
+
+    .accordion-body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.571), 10px, rgba(0, 0, 0, 0.591)), url(../img/pinos-hobbies.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px;
+    }
+
+
+
+    .imagen-luces {
+        height: 500px;
+        border-radius: 40px;
+    }
+
+    .p-acordion-luces {
+        color: white;
+        font-size: 1.1rem;
+        margin: 10px;
+    }
+
+    .p-acordion-canto {
+        color: white;
+        font-size: 1.1rem;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: auto;
+        overflow: scroll;
+        margin: 10px;
+    }
+
+    .videos-canto {
+        height: 150px;
+        width: 200px;
+        border-style: double;
+        border-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+    }
+
+    .videos-canto:hover {
+        height: 350px;
+        width: 500px;
+        transition: 0.5s;
+    }
+
+
+    .hillsong-ba {
+        color: black;
+    }
+
+    .hillsong-ba:hover {
+        color: blue
+    }
+}
+
+// ##########################################################
+// ######################       #############################
+// ######################  480  #############################
+// ######################       #############################
+// ##########################################################
+// ##########################################################
+
+
+@media(max-width:480px) {
+    .h1-hobbies {
+        padding: 20px;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        padding-left: 40px;
+        margin-bottom: 10px;
+        font-size: 2.5rem;
+        color: white;
+    }
+
+    .header-hobbie {
+        position: relative;
+    }
+
+    /* ########## nav  ######### */
+    .nav-hobbies {
+        background-color: rgba(107, 107, 107, 0.051);
+        border-style: double;
+        border-color: rgba(172, 172, 172, 0.344);
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        transition: 0.7s;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+
+    .nav-hobbies:hover {
+        background-color: rgba(0, 0, 0, 0.919);
+        margin-top: 20px;
+        border-color: rgba(255, 254, 254, 0.403);
+        transition: 0.8s;
+    }
+
+    .ul-hobbies {
+
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        margin-left: 0px;
+        list-style-type: none;
+    }
+
+    .li-hobbies {
+        border-style: double;
+        border-color: rgba(255, 255, 255, 0);
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0);
+        padding-left: 20px;
+        padding-left: 0px;
+        margin: 15px;
+        transition: 0.5s;
+        padding: 0px;
+    }
+
+    .li-hobbies:hover {
+        margin: 15px;
+        padding: 0px;
+        padding-top: 0px;
+        transition: 0.5s;
+    }
+
+    .a-header-hobbies {
+        border-style: double;
+        border-color: rgba(255, 255, 255, 0.242);
+        font-family: 'Playfair Display', serif;
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        margin: 0px;
+        margin-top: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        transition: 0.5s;
+    }
+
+    .a-header-hobbies:hover {
+        border-style: double;
+        border-color: rgba(255, 255, 255, 0.758);
+        font-size: 1rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin: 0px;
+        margin-left: 20px;
+        transition: 0.4s;
+
+    }
+
+    /* ########## SECTION  ######### */
+    .contenedor-h2-p1 {
+        opacity: 1;
+        color: rgba(255, 255, 255, 0.522);
+        border-style: double;
+        border-color: rgba(172, 172, 172, 0.517);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: grid;
+        text-align: center;
+        transition: 0.8s;
+    }
+
+    .contenedor-h2-p1:hover {
+        background-color: rgba(0, 0, 0, 0.879);
+        margin-top: 20px;
+        color: white;
+        border-color: rgba(172, 172, 172, 0.491);
+        transition: 0.8s;
+        opacity: 1;
+    }
+
+    .h2-hobbies {
+        border-color: rgba(172, 172, 172, 0.265);
+        border-style: double;
+        border-radius: 8px;
+        padding: 3px;
+        padding-bottom: 5px;
+        transition: 0.8s;
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+
+    .h2-hobbies :hover {
+        border-color: rgba(172, 172, 172, 0.555);
+        border-style: double;
+        border-radius: 8px;
+        padding-bottom: 5px;
+        padding: 3px;
+        transition: 0.8s;
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+
+    .p-1 {
+        margin: 20px;
+        font-size: 1.1rem;
+        margin: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* ########## 1 ######### */
+
+    .container-videos {
+        color: rgb(182, 180, 180);
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+        display: grid;
+        place-content: center;
+        border-color: rgba(172, 172, 172, 0.491);
+        border-style: double;
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+
+    .container-videos:hover {
+        background-color: rgba(0, 0, 0, 0.941);
+        margin-top: 30px;
+        opacity: 1;
+        transition: 0.8s;
+    }
+
+    .videos-hobbies {
+        height: 100px;
+        width: 150px;
+        padding: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 45px;
+        border-radius: 20px;
+        border-color: rgb(129, 130, 130);
+        border-style: double;
+        transition: 0.5s;
+    }
+
+    .videos-hobbies:hover {
+        height: 430px;
+        width: 250px;
+        padding: 0px;
+        margin-top: 10px;
+        border-radius: 20px;
+        border-color: rgb(129, 130, 130);
+        border-style: double;
+        transition: 0.5s;
+        opacity: 1;
+    }
+
+
+    .p-videos {
+        background-color: rgba(0, 0, 0, 0.637);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem;
+        margin: 10px;
+        padding-top: 10px;
+        padding: 20px;
+        height: 250px;
+        width: 330px;
+        border-color: grey;
+        border-style: double;
+        border-radius: 10px;
+        overflow: auto;
+    }
+
+    /* ########## final ######### */
+
+    /* ##########  bootstrap  ######### */
+
+    .articulo-hobbie {
+        padding-top: 10px;
+        padding-bottom: 40px;
+        margin-top: 10px;
+        opacity: 0.5;
+        transition: 0.5s;
+        border-style: double;
+        border-color: rgba(255, 255, 255, 0.356);
+    }
+
+    .articulo-hobbie:hover {
+        margin-top: 30px;
+        background-color: rgba(0, 0, 0, 0.397);
+        opacity: 1;
+        transition: 0.8s;
+    }
+
+    .h3-hobbies {
+        background-color: rgba(0, 0, 0, 0.848);
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        border-style: double;
+        border-color: rgba(255, 255, 255, 0.28);
+        font-size: 2.5rem;
+        color: white;
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .container-boots {
+        background-color: rgba(255, 255, 255, 0);
+        opacity: 1;
+        transition: 1.5s;
+    }
+
+    .container-boots:hover {
+        background-color: rgba(255, 255, 255, 0);
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .accordion {
+        background-color: rgba(110, 110, 110, 0);
+        padding: 10px;
+        border-style: double;
+        border-color: rgba(172, 172, 172, 0);
+        padding: 20px;
+    }
+
+    /* ########## exterior del acordion######### */
+
+    /* ########## interior del acordion######### */
+
+    .accordion-item {
+        padding: 0px;
+    }
+
+    .accordion-header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.687), 10px, rgba(0, 0, 0, 0.591)), url(../img/glass-hobbies.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+
+    }
+
+
+    .accordion-button {
+        background-color: rgba(95, 158, 160, 0);
+    }
+
+    .material-symbols-outlined {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.687), 10px, rgba(0, 0, 0, 0.591)), url(../img/glass-hobbies.jpeg);
+        margin: 2px;
+        height: 3px;
+        width: 2px;
+        overflow: scroll;
+    }
+
+    .material-symbols-outlined {
+        padding-inline-start: 0px;
+    }
+
+    .titulo-acordion {
+        font-size: 1.5rem;
+    }
+
+    .accordion-collapse {
+        background-color: bisque;
+    }
+
+    .accordion-body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.571), 10px, rgba(0, 0, 0, 0.591)), url(../img/pinos-hobbies.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px;
+    }
+
+    .imagen-luces {
+        height: 300px;
+        width: 250px;
+        border-radius: 40px;
+    }
+
+    .p-acordion-luces {
+        color: white;
+        font-size: 1rem;
+        margin: 10px;
+    }
+
+    .p-acordion-canto {
+        color: white;
+        font-size: 1rem;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: auto;
+        overflow: scroll;
+        margin: 10px;
+    }
+
+    .videos-canto {
+        height: 100px;
+        width: 200px;
+        border-style: double;
+        border-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .videos-canto:hover {
+        height: 350px;
+        width: 250px;
+        border-style: double;
+        border-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hillsong-ba {
+        color: black;
+    }
+
+    .hillsong-ba:hover {
+        color: blue
+    }
+}

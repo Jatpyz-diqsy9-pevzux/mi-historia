@@ -1,0 +1,705 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body-programacion {
+    background-color: rgb(228, 228, 228);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+    transition: 1s;
+    cursor: auto;
+}
+
+.audio {
+    opacity: 0;
+    height: 1px;
+    width: 1px;
+    border-radius: 0px;
+
+}
+
+
+.superman {
+    height: 90px;
+    opacity: 0;
+}
+
+
+.body-programacion:hover {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+    transition: 2s;
+}
+
+
+// ##################### H1 ###################################
+.h1-programacion {
+    padding-bottom: 10px;
+    margin: 0px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    color: rgba(22, 3, 107, 0.519);
+    transition: 1s;
+}
+
+.h1-programacion:hover {
+    padding: 0px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    transition: 1s;
+}
+
+.letra-h1 {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4),
+        0 5px 30px rgba(0, 0, 0, 0.1),
+        0 5px 30px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+    transition: 1s;
+}
+
+// ####################### NAV ###############################
+
+.nav-programacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.li-nav-programacion {
+    padding: 10px;
+    margin: 0px;
+    display: inline-block;
+}
+
+
+.a-programacion {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3),
+        5px 15px 30px rgba(0, 0, 0, 0.049),
+        0 5px 10px rgba(0, 0, 0, 0.049);
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3),
+        0 10px 30px rgba(0, 0, 0, 0.1),
+        0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    border-radius: 20px;
+    color: black;
+    font-size: 1rem;
+    transition: 1s;
+}
+
+.a-programacion:hover {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5),
+        5px 15px 30px rgba(0, 0, 0, 0.049),
+        0 5px 10px rgba(0, 0, 0, 0.049);
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3),
+        0 10px 30px rgba(0, 0, 0, 0.1),
+        0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 30px;
+    margin: 18px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+// ##########################################################
+
+// ######################## PARRAFO ###############################
+
+.p-programacion {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4),
+        0 5px 30px rgba(0, 0, 0, 0.1),
+        0 5px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(67, 74, 77);
+    border-radius: 0;
+    font-size: 1.1rem;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+
+
+
+.diferencia {
+    color: rgb(255, 185, 63);
+}
+
+
+
+.diferencia-aqua {
+    color: rgba(0, 255, 255, 0.92);
+}
+
+
+
+.diferencia-roja {
+    color: rgb(188, 60, 60);
+}
+
+
+
+.diferencia-dos-puntos {
+    color: rgb(183, 181, 181);
+}
+
+
+.flecha {
+    color: rgb(67, 74, 77);
+}
+
+.p-roja {
+    color: aqua;
+}
+
+.p-programacion-2 {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4),
+        0 5px 30px rgba(0, 0, 0, 0.1),
+        0 5px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(67, 74, 77);
+    border-radius: 0;
+    padding: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 50px;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+
+.color-texto2 {
+    color: white;
+}
+
+
+// ##########################################################
+
+// ###################### ARTICULO ##########################
+
+.h2-programacion {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3),
+        0 5px 30px rgba(0, 0, 0, 0.1),
+        0 5px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(67, 74, 77);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    margin: 50px;
+    font-size: 3rem;
+    color: aqua;
+    border-radius: 20px;
+}
+
+
+.articulo {
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1s;
+}
+
+
+
+.container-img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    grid-column: 50% auto auto;
+}
+
+.img-1 {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4),
+        0 5px 30px rgba(0, 0, 0, 0.1),
+        0 5px 30px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    width: 270px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+
+.p-mis-espectativas {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4),
+        0 5px 30px rgba(0, 0, 0, 0.1),
+        0 5px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(67, 74, 77);
+    color: rgba(255, 255, 255, 0.822);
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+
+
+
+.contenedor-pla-sa {
+    display: flex;
+
+    opacity: 1;
+    transition: 1.5s;
+}
+
+.img-planeta {
+    height: 1px;
+    margin-left: 1px;
+    opacity: 0;
+}
+
+
+
+.satelite {
+    padding-left: 1px;
+    padding-right: 0px;
+    height: 1px;
+    margin-left: 1px;
+    opacity: 0;
+}
+
+
+
+
+// ##########################################################
+// ######################       #############################
+// ######################  960  #############################
+// ######################       #############################
+// ##########################################################
+// ##########################################################
+
+
+@media(max-width:960px) {
+    .body-programacion {
+        opacity: 1;
+        transition: 0.2s;
+        cursor: auto;
+    }
+
+    .body-programacion:hover {
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+
+    .h1-programacion {
+        margin: 20px;
+        padding-left: 30px;
+        font-size: 2.5rem;
+        transition: 1s;
+    }
+
+
+
+    .letra-h1 {
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4),
+            0 5px 30px rgba(0, 0, 0, 0.1),
+            0 5px 30px rgba(0, 0, 0, 0.1);
+        color: rgba(12, 11, 11, 0.967);
+        font-size: 3rem;
+        transition: 0.8s;
+        margin: 0px;
+    }
+
+
+
+    .nav-programacion {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding-bottom: 0px;
+    }
+
+    .li-nav-programacion {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .a-programacion {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),
+            5px 15px 30px rgba(0, 0, 0, 0.049),
+            0 5px 10px rgba(0, 0, 0, 0.049);
+        text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3),
+            0 10px 30px rgba(0, 0, 0, 0.1),
+            0 10px 30px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0px;
+        border-radius: 20px;
+        color: black;
+        font-size: 1rem;
+        transition: 2s;
+    }
+
+
+
+
+    .p-programacion {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4),
+            0 5px 30px rgba(0, 0, 0, 0.1),
+            0 5px 30px rgba(0, 0, 0, 0.1);
+        background-color: rgb(67, 74, 77);
+        border-radius: 0;
+        font-size: 1.5rem;
+        margin: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
+        transition: 0.5s;
+        transform: translateY(0px);
+    }
+
+
+
+    .diferencia-dos-puntos {
+        color: rgba(183, 181, 181, 0.578);
+        padding: 5px;
+    }
+
+
+
+
+    .p-programacion-2 {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4),
+            0 5px 30px rgba(0, 0, 0, 0.1),
+            0 5px 30px rgba(0, 0, 0, 0.1);
+        background-color: rgb(67, 74, 77);
+        border-radius: 0;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 0px;
+        padding-top: 10px;
+        margin-top: 80px;
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+        transition: 0.5s;
+        transform: translateY(0px);
+    }
+
+
+    .articulo {
+        padding: 20px;
+        margin-bottom: 0px;
+        opacity: 1;
+        transform: translateY(0px);
+        transition: 1s;
+    }
+
+
+
+    .h2-programacion {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3),
+            0 5px 30px rgba(0, 0, 0, 0.1),
+            0 5px 30px rgba(0, 0, 0, 0.1);
+        background-color: rgb(67, 74, 77);
+        padding-bottom: 10px;
+        padding-top: 8px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+        color: aqua;
+        border-radius: 20px;
+    }
+
+
+    .p-mis-espectativas {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4),
+            0 5px 30px rgba(0, 0, 0, 0.1),
+            0 5px 30px rgba(0, 0, 0, 0.1);
+        background-color: rgb(67, 74, 77);
+        color: rgba(255, 255, 255, 0.822);
+        padding: 20px;
+        padding-bottom: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-size: 1.2rem;
+    }
+
+
+    .div-superman {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        height: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        opacity: 0;
+        transition: 10s;
+    }
+
+
+    .superman {
+        height: 1px;
+    }
+
+    .satelite {
+        height: 1px;
+        width: 1px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 1px;
+        opacity: 0;
+    }
+
+
+
+    .img-planeta {
+        height: 1px;
+        margin-left: 1px;
+        opacity: 0;
+        transition: 0s;
+    }
+
+
+    .img-1 {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4),
+            0 5px 30px rgba(0, 0, 0, 0.1),
+            0 5px 30px rgba(0, 0, 0, 0.1);
+        height: 150px;
+        width: auto;
+        padding: 0px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+    }
+}
+
+// ##########################################################
+// ######################       #############################
+// ######################  480  #############################
+// ######################       #############################
+// ##########################################################
+// ##########################################################
+
+
+@media(max-width:480px) {
+    .body-programacion {
+        opacity: 1;
+        transition: 0.2s;
+        cursor: auto;
+    }
+
+    .body-programacion:hover {
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .audio {
+        opacity: 0;
+        height: 500px;
+        width: 1px;
+        border-radius: 0px;
+    }
+
+
+    .h1-programacion {
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+        padding: 0px;
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 30px;
+        transition: 0s;
+    }
+
+
+    .letra-h1 {
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4),
+            0 5px 30px rgba(0, 0, 0, 0.1),
+            0 5px 30px rgba(0, 0, 0, 0.1);
+        color: rgb(18, 18, 18);
+        transition: 0s;
+        margin: 0px;
+    }
+
+
+
+    .nav-programacion {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding-bottom: 0px;
+    }
+
+    .li-nav-programacion {
+        padding: 5px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .a-programacion {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),
+            5px 15px 30px rgba(0, 0, 0, 0.049),
+            0 5px 10px rgba(0, 0, 0, 0.049);
+        text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3),
+            0 10px 30px rgba(0, 0, 0, 0.1),
+            0 10px 30px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        text-decoration: none;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0px;
+        border-radius: 20px;
+        color: black;
+        font-size: 1rem;
+        transition: 0.8s;
+    }
+
+
+
+    .p-programacion {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4),
+            0 5px 30px rgba(0, 0, 0, 0.1),
+            0 5px 30px rgba(0, 0, 0, 0.1);
+        background-color: rgb(67, 74, 77);
+        border-radius: 0;
+        font-size: 1rem;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        transform: translateY(0px);
+        transition: 1s;
+    }
+
+
+    .p-programacion-2 {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4),
+            0 5px 30px rgba(0, 0, 0, 0.1),
+            0 5px 30px rgba(0, 0, 0, 0.1);
+        background-color: rgb(67, 74, 77);
+        border-radius: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 1rem;
+        transition: 0.8s;
+        transform: translateY(0px);
+    }
+
+
+    .articulo {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+        opacity: 1;
+        transform: translateY(0px);
+        transition: 1s;
+    }
+
+
+
+
+    .h2-programacion {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3),
+            0 5px 30px rgba(0, 0, 0, 0.1),
+            0 5px 30px rgba(0, 0, 0, 0.1);
+        background-color: rgb(67, 74, 77);
+        padding-bottom: 10px;
+        padding-top: 8px;
+        text-align: center;
+        margin: 5px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        font-size: 2rem;
+        color: aqua;
+        border-radius: 20px;
+    }
+
+
+
+    .p-mis-espectativas {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4),
+            0 5px 30px rgba(0, 0, 0, 0.1),
+            0 5px 30px rgba(0, 0, 0, 0.1);
+        background-color: rgb(67, 74, 77);
+        color: rgba(255, 255, 255, 0.822);
+        padding: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 1rem;
+    }
+
+
+
+    .div-superman {
+        background-color: black;
+        padding-right: 0px;
+        padding-left: 0px;
+        left: 0px;
+        opacity: 0;
+        transition: 0s;
+    }
+
+
+
+
+    .img-planeta {
+        height: 1px;
+        margin-left: 1px;
+        opacity: 0;
+        transition: 0s;
+    }
+
+
+    .img-1 {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4),
+            0 5px 30px rgba(0, 0, 0, 0.1),
+            0 5px 30px rgba(0, 0, 0, 0.1);
+        height: 100px;
+        width: auto;
+        padding: 0px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        border-radius: 50%;
+    }
+
+    .satelite {
+        height: 1px;
+        width: 1px;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 1px;
+        margin-left: 1px;
+        opacity: 1;
+        transition: 0s;
+    }
+}

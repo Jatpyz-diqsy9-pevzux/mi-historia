@@ -1,0 +1,2773 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Itim&family=Mulish:ital,wght@0,300;0,400;1,200;1,300&family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Itim&family=Mulish:ital,wght@0,300;0,400;1,200;1,300&family=Playfair+Display&family=Poppins&family=Roboto&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body-index {
+  background: linear-gradient(0.25turn, #e1f3fb, #b5d8e7, #b0e8ef);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ##########  H1 o SINBOL  ######### */
+.h1-index {
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+  font-family: "Mulish", sans-serif;
+  padding: 50px;
+  font-size: 3rem;
+}
+
+/* ##########  NAV  ######### */
+.nav-index {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2), 5px 5px 10px rgba(0, 0, 0, 0.049), 0 5px 5px rgba(0, 0, 0, 0.049);
+  background-color: rgba(255, 254, 254, 0.294);
+  color: rgba(0, 0, 0, 0.776);
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 10px;
+  border-radius: 50px;
+  border-color: rgba(195, 195, 195, 0.246);
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.nav-index:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.026);
+  height: 100%;
+  margin: 40px;
+  border-style: none;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.ul-index {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-right: 100px;
+  padding-left: 100px;
+  list-style-type: none;
+}
+
+.a-index {
+  font-family: "Bebas Neue", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.46);
+  font-size: 2.5rem;
+}
+
+.a-index:hover {
+  cursor: pointer;
+  color: black;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+/* ##########  SECTIONS  ######### */
+.h2-index {
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+  font-family: "Mulish", sans-serif;
+  padding-top: 50px;
+  padding-left: 50px;
+  font-size: 2rem;
+}
+
+.p-1-index {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2), 5px 5px 10px rgba(0, 0, 0, 0.049), 0 5px 5px rgba(0, 0, 0, 0.049);
+  color: rgba(231, 229, 229, 0.189);
+  background-color: rgba(18, 18, 18, 0.574);
+  margin-top: 0;
+  margin: 30px;
+  padding: 20PX;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  transition: 0.8s;
+}
+
+.p-1-index:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.906);
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+
+/* ###### BOOTSTRAP CARRUSEL ########*/
+.d-block {
+  height: 850px;
+}
+
+.h3-bootstrap {
+  font-size: 2rem;
+  font-family: "Mulish", sans-serif;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.p-bootstrap {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.419);
+  margin-top: 0;
+  margin: 20px;
+  padding: 10PX;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+.circulo-crmatico {
+  height: 300px;
+}
+
+.colores-primarios {
+  height: 550px;
+  border-radius: 500px;
+}
+
+.ojo {
+  height: 400px;
+}
+
+/* ##############*/
+.h4-index {
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+  font-family: "Mulish", sans-serif;
+  padding-left: 50px;
+  padding-top: 30px;
+  font-size: 2rem;
+  color: black;
+}
+
+.h5-index {
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+  font-family: "Mulish", sans-serif;
+  padding-left: 50px;
+  padding-top: 30px;
+  font-size: 2rem;
+  color: black;
+}
+
+@media (max-width: 960px) {
+  .h1-index {
+    padding: 20px;
+    font-size: 2.5rem;
+  }
+  .nav-index {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 35px;
+    background-color: white;
+    opacity: 1;
+  }
+  .nav-index:hover {
+    height: 100%;
+    margin: 15px;
+  }
+  .ul-index {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .a-index {
+    font-family: "Bebas Neue", sans-serif;
+    color: rgba(0, 0, 0, 0.565);
+    font-size: 1.1rem;
+    transition: 0.8s;
+  }
+  .a-index:hover {
+    font-family: "Bebas Neue", sans-serif;
+    color: black;
+    font-size: 1.7rem;
+    transition: 0.4s;
+  }
+  /* ###################*/
+  .h2-index {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2), 5px 5px 10px rgba(0, 0, 0, 0.049), 0 5px 5px rgba(0, 0, 0, 0.049);
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+  .p-1-index {
+    color: rgb(229, 231, 229);
+    background-color: rgba(18, 18, 18, 0.6);
+    margin-top: 0;
+    margin: 30px;
+    padding: 20PX;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    transition: 0.5s;
+    opacity: 1;
+  }
+  .p-1-index :hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+    opacity: 1;
+  }
+  .h4-index {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2), 5px 5px 10px rgba(0, 0, 0, 0.049), 0 5px 5px rgba(0, 0, 0, 0.049);
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+  .h5-index {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2), 5px 5px 10px rgba(0, 0, 0, 0.049), 0 5px 5px rgba(0, 0, 0, 0.049);
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+  /* ######### boots  ##########*/
+  .d-block {
+    height: 480px;
+    width: 700px;
+  }
+  .h3-bootstrap {
+    font-size: 1.3rem;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .p-bootstrap {
+    margin-top: 0;
+    margin: 0px;
+    padding: 5PX;
+    font-size: 1rem;
+  }
+  .circulo-crmatico {
+    height: 100px;
+  }
+  .colores-primarios {
+    height: 180px;
+    border-radius: 500px;
+  }
+  .ojo {
+    height: 130px;
+  }
+}
+@media (max-width: 480px) {
+  .h1-index {
+    padding: 5px;
+    font-size: 2rem;
+  }
+  .nav-index {
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 0.5px;
+    margin: 25px;
+    background-color: white;
+    opacity: 1;
+  }
+  .nav-index:hover {
+    height: 100%;
+    margin: 10px;
+  }
+  .ul-index {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .a-index {
+    font-family: "Bebas Neue", sans-serif;
+    color: black;
+    font-size: 0.8rem;
+  }
+  /* ###################*/
+  .h2-index {
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+  .h4-index {
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+  .h5-index {
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+  /* ######### boots  ##########*/
+  .d-block {
+    height: 250px;
+  }
+  .h3-bootstrap {
+    font-size: 1rem;
+    padding-left: 5px;
+    padding-top: 3px;
+  }
+  .p-bootstrap {
+    margin-top: 0;
+    margin: 0px;
+    padding: 5PX;
+    font-size: 0.5rem;
+  }
+  .circulo-crmatico {
+    height: 50px;
+  }
+  .colores-primarios {
+    height: 50px;
+    border-radius: 500px;
+  }
+  .ojo {
+    height: 50px;
+  }
+  .p-1-index {
+    color: rgb(231, 229, 229);
+    background-color: rgba(18, 18, 18, 0.6);
+    margin-top: 0;
+    margin: 30px;
+    padding: 20PX;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    opacity: 1;
+  }
+  .p-1-index :hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body-programacion {
+  background-color: rgb(228, 228, 228);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 1;
+  transition: 1s;
+  cursor: auto;
+}
+
+.audio {
+  opacity: 0;
+  height: 1px;
+  width: 1px;
+  border-radius: 0px;
+}
+
+.superman {
+  height: 90px;
+  opacity: 0;
+}
+
+.body-programacion:hover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 1;
+  transition: 2s;
+}
+
+.h1-programacion {
+  padding-bottom: 10px;
+  margin: 0px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  color: rgba(22, 3, 107, 0.519);
+  transition: 1s;
+}
+
+.h1-programacion:hover {
+  padding: 0px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  transition: 1s;
+}
+
+.letra-h1 {
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7rem;
+  transition: 1s;
+}
+
+.nav-programacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.li-nav-programacion {
+  padding: 10px;
+  margin: 0px;
+  display: inline-block;
+}
+
+.a-programacion {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 5px 15px 30px rgba(0, 0, 0, 0.049), 0 5px 10px rgba(0, 0, 0, 0.049);
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.1), 0 10px 30px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+  border-radius: 20px;
+  color: black;
+  font-size: 1rem;
+  transition: 1s;
+}
+
+.a-programacion:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5), 5px 15px 30px rgba(0, 0, 0, 0.049), 0 5px 10px rgba(0, 0, 0, 0.049);
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.1), 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 30px;
+  margin: 18px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+
+.p-programacion {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+  background-color: rgb(67, 74, 77);
+  border-radius: 0;
+  font-size: 1.1rem;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 40px;
+  transition: 0.5s;
+}
+
+.diferencia {
+  color: rgb(255, 185, 63);
+}
+
+.diferencia-aqua {
+  color: rgba(0, 255, 255, 0.92);
+}
+
+.diferencia-roja {
+  color: rgb(188, 60, 60);
+}
+
+.diferencia-dos-puntos {
+  color: rgb(183, 181, 181);
+}
+
+.flecha {
+  color: rgb(67, 74, 77);
+}
+
+.p-roja {
+  color: aqua;
+}
+
+.p-programacion-2 {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+  background-color: rgb(67, 74, 77);
+  border-radius: 0;
+  padding: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 50px;
+  font-size: 1.2rem;
+  transition: 0.5s;
+}
+
+.color-texto2 {
+  color: white;
+}
+
+.h2-programacion {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+  background-color: rgb(67, 74, 77);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  margin: 50px;
+  font-size: 3rem;
+  color: aqua;
+  border-radius: 20px;
+}
+
+.articulo {
+  padding: 10px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  opacity: 1;
+  transform: translateY(0px);
+  transition: 1s;
+}
+
+.container-img {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  grid-column: 50% auto auto;
+}
+
+.img-1 {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  width: 270px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+.p-mis-espectativas {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+  background-color: rgb(67, 74, 77);
+  color: rgba(255, 255, 255, 0.822);
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.contenedor-pla-sa {
+  display: flex;
+  opacity: 1;
+  transition: 1.5s;
+}
+
+.img-planeta {
+  height: 1px;
+  margin-left: 1px;
+  opacity: 0;
+}
+
+.satelite {
+  padding-left: 1px;
+  padding-right: 0px;
+  height: 1px;
+  margin-left: 1px;
+  opacity: 0;
+}
+
+@media (max-width: 960px) {
+  .body-programacion {
+    opacity: 1;
+    transition: 0.2s;
+    cursor: auto;
+  }
+  .body-programacion:hover {
+    opacity: 1;
+    transition: 0.5s;
+  }
+  .h1-programacion {
+    margin: 20px;
+    padding-left: 30px;
+    font-size: 2.5rem;
+    transition: 1s;
+  }
+  .letra-h1 {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+    color: rgba(12, 11, 11, 0.967);
+    font-size: 3rem;
+    transition: 0.8s;
+    margin: 0px;
+  }
+  .nav-programacion {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 0px;
+  }
+  .li-nav-programacion {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .a-programacion {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 5px 15px 30px rgba(0, 0, 0, 0.049), 0 5px 10px rgba(0, 0, 0, 0.049);
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.1), 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    border-radius: 20px;
+    color: black;
+    font-size: 1rem;
+    transition: 2s;
+  }
+  .p-programacion {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(67, 74, 77);
+    border-radius: 0;
+    font-size: 1.5rem;
+    margin: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: 0.5s;
+    transform: translateY(0px);
+  }
+  .diferencia-dos-puntos {
+    color: rgba(183, 181, 181, 0.578);
+    padding: 5px;
+  }
+  .p-programacion-2 {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(67, 74, 77);
+    border-radius: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    transition: 0.5s;
+    transform: translateY(0px);
+  }
+  .articulo {
+    padding: 20px;
+    margin-bottom: 0px;
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1s;
+  }
+  .h2-programacion {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(67, 74, 77);
+    padding-bottom: 10px;
+    padding-top: 8px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: aqua;
+    border-radius: 20px;
+  }
+  .p-mis-espectativas {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(67, 74, 77);
+    color: rgba(255, 255, 255, 0.822);
+    padding: 20px;
+    padding-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+  }
+  .div-superman {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    opacity: 0;
+    transition: 10s;
+  }
+  .superman {
+    height: 1px;
+  }
+  .satelite {
+    height: 1px;
+    width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 1px;
+    opacity: 0;
+  }
+  .img-planeta {
+    height: 1px;
+    margin-left: 1px;
+    opacity: 0;
+    transition: 0s;
+  }
+  .img-1 {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+    height: 150px;
+    width: auto;
+    padding: 0px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .body-programacion {
+    opacity: 1;
+    transition: 0.2s;
+    cursor: auto;
+  }
+  .body-programacion:hover {
+    opacity: 1;
+    transition: 1s;
+  }
+  .audio {
+    opacity: 0;
+    height: 500px;
+    width: 1px;
+    border-radius: 0px;
+  }
+  .h1-programacion {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    padding: 0px;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    transition: 0s;
+  }
+  .letra-h1 {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+    color: rgb(18, 18, 18);
+    transition: 0s;
+    margin: 0px;
+  }
+  .nav-programacion {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 0px;
+  }
+  .li-nav-programacion {
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .a-programacion {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 5px 15px 30px rgba(0, 0, 0, 0.049), 0 5px 10px rgba(0, 0, 0, 0.049);
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.1), 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    border-radius: 20px;
+    color: black;
+    font-size: 1rem;
+    transition: 0.8s;
+  }
+  .p-programacion {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(67, 74, 77);
+    border-radius: 0;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    transform: translateY(0px);
+    transition: 1s;
+  }
+  .p-programacion-2 {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(67, 74, 77);
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1rem;
+    transition: 0.8s;
+    transform: translateY(0px);
+  }
+  .articulo {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1s;
+  }
+  .h2-programacion {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(67, 74, 77);
+    padding-bottom: 10px;
+    padding-top: 8px;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: aqua;
+    border-radius: 20px;
+  }
+  .p-mis-espectativas {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(67, 74, 77);
+    color: rgba(255, 255, 255, 0.822);
+    padding: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 1rem;
+  }
+  .div-superman {
+    background-color: black;
+    padding-right: 0px;
+    padding-left: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0s;
+  }
+  .img-planeta {
+    height: 1px;
+    margin-left: 1px;
+    opacity: 0;
+    transition: 0s;
+  }
+  .img-1 {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 5px 30px rgba(0, 0, 0, 0.1), 0 5px 30px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    width: auto;
+    padding: 0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 50%;
+  }
+  .satelite {
+    height: 1px;
+    width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 1px;
+    margin-left: 1px;
+    opacity: 1;
+    transition: 0s;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body-hobbie {
+  background-image: url(../img/fondo-hobbies.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.h1-hobbies {
+  padding: 20px;
+  padding-left: 50px;
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  color: white;
+  border-color: rgba(172, 172, 172, 0.517);
+  border-style: double;
+}
+
+.header-hobbie {
+  position: relative;
+}
+
+/* ########## nav  ######### */
+.nav-hobbies {
+  background-color: rgba(107, 107, 107, 0.051);
+  border-style: double;
+  border-color: rgba(172, 172, 172, 0.517);
+  display: flex;
+  justify-content: center;
+  transition: 0.7s;
+}
+
+.nav-hobbies:hover {
+  background-color: rgba(0, 0, 0, 0.453);
+  border-color: rgba(97, 97, 97, 0.384);
+  transition: 0.8s;
+}
+
+.ul-hobbies {
+  margin-top: 15px;
+  display: flex;
+  list-style-type: none;
+}
+
+.li-hobbies {
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.li-hobbies:hover {
+  margin: 10px;
+  padding-top: 40px;
+  transition: 0.5s;
+}
+
+.a-header-hobbies {
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  transition: 0.5s;
+}
+
+.a-header-hobbies:hover {
+  font-size: 2.5rem;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: 50px;
+  transition: 0.7s;
+}
+
+/* ########## SECTION  ######### */
+.contenedor-h2-p1 {
+  opacity: 1;
+  color: rgba(255, 255, 255, 0.082);
+  border-style: double;
+  border-color: rgba(172, 172, 172, 0.517);
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin: 0px;
+  display: grid;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.contenedor-h2-p1:hover {
+  background-color: rgba(0, 0, 0, 0.778);
+  color: white;
+  border-color: rgba(172, 172, 172, 0.491);
+  transition: 1s;
+  opacity: 1;
+}
+
+.h2-hobbies {
+  font-size: 2.5rem;
+  margin: 20px;
+}
+
+.p-1 {
+  margin: 20px;
+  font-size: 1.5rem;
+  margin: 50px;
+}
+
+/* ########## 1 ######### */
+.container-videos {
+  color: rgb(182, 180, 180);
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row: auto;
+  justify-content: space-around;
+  border-color: rgba(172, 172, 172, 0.491);
+  border-style: double;
+  overflow: auto;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.container-videos:hover {
+  background-color: rgba(0, 0, 0, 0.778);
+  opacity: 1;
+  transition: 1s;
+}
+
+.videos-hobbies {
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border-color: rgb(129, 130, 130);
+  border-style: double;
+  transition: 0.5s;
+}
+
+.videos-hobbies:hover {
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border-color: rgb(129, 130, 130);
+  border-style: double;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.p-videos {
+  background-color: rgba(0, 0, 0, 0.637);
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 20px;
+  padding-top: 10px;
+  padding: 20px;
+  height: 250px;
+  width: 300px;
+  border-color: grey;
+  border-style: double;
+  overflow: auto;
+}
+
+/* ########## final ######### */
+/* ##########  bootstrap  ######### */
+.articulo-hobbie {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.articulo-hobbie:hover {
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.h3-hobbies {
+  font-size: 3.5rem;
+  color: white;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-boots {
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 0;
+  transition: 1.5s;
+}
+
+.container-boots:hover {
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 100px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+  opacity: 1;
+  transition: 1.5s;
+}
+
+.accordion {
+  background-color: rgba(110, 110, 110, 0);
+  padding: 10px;
+  border-style: double;
+  border-color: rgba(172, 172, 172, 0.491);
+  padding: 20px;
+}
+
+/* ########## exterior del acordion######### */
+/* ########## interior del acordion######### */
+.accordion-item {
+  padding: 0px;
+}
+
+.accordion-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.687), 10px, rgba(0, 0, 0, 0.591)), url(../img/glass-hobbies.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+.accordion-button {
+  background-color: cadetblue;
+}
+
+.material-symbols-outlined {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.687), 10px, rgba(0, 0, 0, 0.591)), url(../img/glass-hobbies.jpeg);
+  margin: 10px;
+  height: 10px;
+  width: 10px;
+  overflow: scroll;
+}
+
+.titulo-acordion {
+  font-size: 1.5rem;
+}
+
+.accordion-collapse {
+  background-color: bisque;
+}
+
+.accordion-body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.571), 10px, rgba(0, 0, 0, 0.591)), url(../img/pinos-hobbies.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+.imagen-luces {
+  height: 600px;
+  border-radius: 40px;
+}
+
+.p-acordion-luces {
+  color: white;
+  font-size: 1.2rem;
+  margin: 20px;
+}
+
+.p-acordion-canto {
+  color: white;
+  font-size: 1.2rem;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto;
+  overflow: scroll;
+  margin: 20px;
+}
+
+.hillsong-ba {
+  color: black;
+}
+
+.hillsong-ba:hover {
+  color: blue;
+}
+
+.videos-canto {
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1250px) {
+  .h1-hobbies {
+    padding: 20px;
+    padding-left: 30px;
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    border-color: rgba(172, 172, 172, 0.517);
+    border-style: double;
+  }
+  .header-hobbie {
+    position: relative;
+  }
+  /* ########## nav  ######### */
+  .nav-hobbies {
+    background-color: rgba(107, 107, 107, 0);
+    border-style: double;
+    border-color: rgba(172, 172, 172, 0.517);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    transition: 0.7s;
+    padding-left: 0px;
+    margin-top: 10px;
+    opacity: 1;
+  }
+  .nav-hobbies:hover {
+    background-color: rgba(0, 0, 0, 0.875);
+    border-color: rgba(97, 97, 97, 0.384);
+    transition: 0.4s;
+    opacity: 1;
+  }
+  .ul-hobbies {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-left: 0px;
+    list-style-type: none;
+  }
+  .li-hobbies {
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.195);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.088);
+    padding-left: 20px;
+    margin-right: 100px;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+    padding: 10px;
+  }
+  .li-hobbies:hover {
+    margin: 25px;
+    margin-left: 0px;
+    padding: 15px;
+    padding-top: 15px;
+    transition: 0.5s;
+  }
+  .a-header-hobbies {
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.47);
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 5px;
+    padding-right: 50px;
+    transition: 0.5s;
+  }
+  .a-header-hobbies:hover {
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.758);
+    font-size: 1.2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: 0px;
+    margin-left: 30px;
+    transition: 0.7s;
+  }
+  /* ########## SECTION  ######### */
+  .contenedor-h2-p1 {
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.522);
+    border-style: double;
+    border-color: rgba(172, 172, 172, 0.517);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    text-align: center;
+    transition: 1s;
+  }
+  .contenedor-h2-p1:hover {
+    background-color: rgba(0, 0, 0, 0.879);
+    color: white;
+    border-color: rgba(172, 172, 172, 0.491);
+    transition: 0.3s;
+    opacity: 1;
+  }
+  .h2-hobbies {
+    font-size: 1.7rem;
+    margin-top: 0px;
+  }
+  .p-1 {
+    margin: 20px;
+    font-size: 1.1rem;
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  /* ########## 1 ######### */
+  .container-videos {
+    color: rgb(182, 180, 180);
+    margin-bottom: 10px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: auto;
+    justify-content: space-around;
+    border-color: rgba(172, 172, 172, 0.491);
+    border-style: double;
+    overflow: auto;
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+  .container-videos:hover {
+    background-color: rgba(0, 0, 0, 0.941);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    opacity: 1;
+    transition: 1s;
+  }
+  .videos-hobbies {
+    height: 150px;
+    width: 170px;
+    padding: 0px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-color: rgb(129, 130, 130);
+    border-style: double;
+    transition: 0.5s;
+  }
+  .videos-hobbies:hover {
+    height: 550px;
+    width: 420px;
+    padding: 0px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-color: rgb(129, 130, 130);
+    border-style: double;
+    transition: 0.5s;
+    opacity: 1;
+  }
+  .p-videos {
+    background-color: rgba(0, 0, 0, 0.637);
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 10px;
+    padding: 30px;
+    height: 200px;
+    width: 400px;
+    border-color: grey;
+    border-style: double;
+    overflow: auto;
+  }
+  /* ########## final ######### */
+  /* ##########  bootstrap  ######### */
+  .articulo-hobbie {
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.421);
+    opacity: 0.2;
+    transition: 0.5s;
+    margin-top: 10px;
+  }
+  .articulo-hobbie:hover {
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.421);
+    background-color: rgba(0, 0, 0, 0.817);
+    opacity: 1;
+    transition: 0.8s;
+    margin-top: 25px;
+  }
+  .h3-hobbies {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.421);
+    font-size: 2.5rem;
+    color: white;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .container-boots {
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 1;
+    transition: 1.5s;
+  }
+  .container-boots:hover {
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    opacity: 1;
+    transition: 1s;
+  }
+  .accordion {
+    background-color: rgba(110, 110, 110, 0);
+    padding: 10px;
+    border-style: double;
+    border-color: rgba(172, 172, 172, 0.491);
+    padding: 20px;
+  }
+  /* ########## exterior del acordion######### */
+  /* ########## interior del acordion######### */
+  .accordion-item {
+    padding: 0px;
+  }
+  .accordion-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.687), 10px, rgba(0, 0, 0, 0.591)), url(../img/glass-hobbies.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+  }
+  .accordion-button {
+    background-color: rgba(95, 158, 160, 0);
+  }
+  .material-symbols-outlined {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.687), 10px, rgba(0, 0, 0, 0.591)), url(../img/glass-hobbies.jpeg);
+    margin: 5px;
+    height: 5px;
+    width: 10px;
+    overflow: scroll;
+  }
+  .material-symbols-outlined {
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
+  }
+  .titulo-acordion {
+    font-size: 1.5rem;
+  }
+  .accordion-collapse {
+    background-color: bisque;
+  }
+  .accordion-body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.571), 10px, rgba(0, 0, 0, 0.591)), url(../img/pinos-hobbies.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+  }
+  .imagen-luces {
+    height: 500px;
+    border-radius: 40px;
+  }
+  .p-acordion-luces {
+    color: white;
+    font-size: 1.1rem;
+    margin: 10px;
+  }
+  .p-acordion-canto {
+    color: white;
+    font-size: 1.1rem;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto;
+    overflow: scroll;
+    margin: 10px;
+  }
+  .videos-canto {
+    height: 150px;
+    width: 200px;
+    border-style: double;
+    border-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+  }
+  .videos-canto:hover {
+    height: 350px;
+    width: 500px;
+    transition: 0.5s;
+  }
+  .hillsong-ba {
+    color: black;
+  }
+  .hillsong-ba:hover {
+    color: blue;
+  }
+}
+@media (max-width: 480px) {
+  .h1-hobbies {
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: white;
+  }
+  .header-hobbie {
+    position: relative;
+  }
+  /* ########## nav  ######### */
+  .nav-hobbies {
+    background-color: rgba(107, 107, 107, 0.051);
+    border-style: double;
+    border-color: rgba(172, 172, 172, 0.344);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    transition: 0.7s;
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+  .nav-hobbies:hover {
+    background-color: rgba(0, 0, 0, 0.919);
+    margin-top: 20px;
+    border-color: rgba(255, 254, 254, 0.403);
+    transition: 0.8s;
+  }
+  .ul-hobbies {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-left: 0px;
+    list-style-type: none;
+  }
+  .li-hobbies {
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: 20px;
+    padding-left: 0px;
+    margin: 15px;
+    transition: 0.5s;
+    padding: 0px;
+  }
+  .li-hobbies:hover {
+    margin: 15px;
+    padding: 0px;
+    padding-top: 0px;
+    transition: 0.5s;
+  }
+  .a-header-hobbies {
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.242);
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin: 0px;
+    margin-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 0.5s;
+  }
+  .a-header-hobbies:hover {
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.758);
+    font-size: 1rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
+    margin-left: 20px;
+    transition: 0.4s;
+  }
+  /* ########## SECTION  ######### */
+  .contenedor-h2-p1 {
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.522);
+    border-style: double;
+    border-color: rgba(172, 172, 172, 0.517);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    text-align: center;
+    transition: 0.8s;
+  }
+  .contenedor-h2-p1:hover {
+    background-color: rgba(0, 0, 0, 0.879);
+    margin-top: 20px;
+    color: white;
+    border-color: rgba(172, 172, 172, 0.491);
+    transition: 0.8s;
+    opacity: 1;
+  }
+  .h2-hobbies {
+    border-color: rgba(172, 172, 172, 0.265);
+    border-style: double;
+    border-radius: 8px;
+    padding: 3px;
+    padding-bottom: 5px;
+    transition: 0.8s;
+    font-size: 2rem;
+    margin-top: 0px;
+  }
+  .h2-hobbies :hover {
+    border-color: rgba(172, 172, 172, 0.555);
+    border-style: double;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    padding: 3px;
+    transition: 0.8s;
+    font-size: 2rem;
+    margin-top: 0px;
+  }
+  .p-1 {
+    margin: 20px;
+    font-size: 1.1rem;
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  /* ########## 1 ######### */
+  .container-videos {
+    color: rgb(182, 180, 180);
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    display: grid;
+    place-content: center;
+    border-color: rgba(172, 172, 172, 0.491);
+    border-style: double;
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+  .container-videos:hover {
+    background-color: rgba(0, 0, 0, 0.941);
+    margin-top: 30px;
+    opacity: 1;
+    transition: 0.8s;
+  }
+  .videos-hobbies {
+    height: 100px;
+    width: 150px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    border-radius: 20px;
+    border-color: rgb(129, 130, 130);
+    border-style: double;
+    transition: 0.5s;
+  }
+  .videos-hobbies:hover {
+    height: 430px;
+    width: 250px;
+    padding: 0px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-color: rgb(129, 130, 130);
+    border-style: double;
+    transition: 0.5s;
+    opacity: 1;
+  }
+  .p-videos {
+    background-color: rgba(0, 0, 0, 0.637);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px;
+    padding-top: 10px;
+    padding: 20px;
+    height: 250px;
+    width: 330px;
+    border-color: grey;
+    border-style: double;
+    border-radius: 10px;
+    overflow: auto;
+  }
+  /* ########## final ######### */
+  /* ##########  bootstrap  ######### */
+  .articulo-hobbie {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    opacity: 0.5;
+    transition: 0.5s;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.356);
+  }
+  .articulo-hobbie:hover {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.397);
+    opacity: 1;
+    transition: 0.8s;
+  }
+  .h3-hobbies {
+    background-color: rgba(0, 0, 0, 0.848);
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.28);
+    font-size: 2.5rem;
+    color: white;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .container-boots {
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 1;
+    transition: 1.5s;
+  }
+  .container-boots:hover {
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    opacity: 1;
+    transition: 1s;
+  }
+  .accordion {
+    background-color: rgba(110, 110, 110, 0);
+    padding: 10px;
+    border-style: double;
+    border-color: rgba(172, 172, 172, 0);
+    padding: 20px;
+  }
+  /* ########## exterior del acordion######### */
+  /* ########## interior del acordion######### */
+  .accordion-item {
+    padding: 0px;
+  }
+  .accordion-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.687), 10px, rgba(0, 0, 0, 0.591)), url(../img/glass-hobbies.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+  }
+  .accordion-button {
+    background-color: rgba(95, 158, 160, 0);
+  }
+  .material-symbols-outlined {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.687), 10px, rgba(0, 0, 0, 0.591)), url(../img/glass-hobbies.jpeg);
+    margin: 2px;
+    height: 3px;
+    width: 2px;
+    overflow: scroll;
+  }
+  .material-symbols-outlined {
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
+  }
+  .titulo-acordion {
+    font-size: 1.5rem;
+  }
+  .accordion-collapse {
+    background-color: bisque;
+  }
+  .accordion-body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.571), 10px, rgba(0, 0, 0, 0.591)), url(../img/pinos-hobbies.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+  }
+  .imagen-luces {
+    height: 300px;
+    width: 250px;
+    border-radius: 40px;
+  }
+  .p-acordion-luces {
+    color: white;
+    font-size: 1rem;
+    margin: 10px;
+  }
+  .p-acordion-canto {
+    color: white;
+    font-size: 1rem;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto;
+    overflow: scroll;
+    margin: 10px;
+  }
+  .videos-canto {
+    height: 100px;
+    width: 200px;
+    border-style: double;
+    border-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .videos-canto:hover {
+    height: 350px;
+    width: 250px;
+    border-style: double;
+    border-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .hillsong-ba {
+    color: black;
+  }
+  .hillsong-ba:hover {
+    color: blue;
+  }
+}
+footer {
+  position: relative;
+  width: 100%;
+  background: rgb(25, 25, 25);
+  height: 200px;
+  padding: 20px 0px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+footer .redes-sociales,
+footer .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: nowrap;
+}
+
+footer .redes-sociales li,
+footer .menu li {
+  list-style: none;
+}
+
+footer .redes-sociales li a {
+  font-size: 2em;
+  color: white;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+
+footer .redes-sociales li a:hover {
+  transform: translateY(-10px);
+  opacity: 1;
+}
+
+footer .menu li a {
+  font-size: 1.2em;
+  color: white;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+footer .menu li a:hover {
+  opacity: 1;
+}
+
+footer .p-footer {
+  color: grey;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  footer {
+    height: 200px;
+    width: 100%;
+    padding: 0px;
+  }
+  footer .menu li a {
+    font-size: 1em;
+    color: white;
+    margin-right: 0;
+    padding-left: 0;
+  }
+}
+.body-programacion.active {
+  background-image: url(../img/fondo-programacion.jpeg);
+  cursor: url("../img/cursor-1.png"), auto;
+}
+.body-programacion.active .audio {
+  opacity: 1;
+  height: 50px;
+  width: 100px;
+  border-radius: 0px;
+}
+.body-programacion.active .div-superman {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  height: 140px;
+  margin-left: 0px;
+  opacity: 0;
+  transition: 1.5s;
+}
+.body-programacion.active .div-superman:hover {
+  margin-left: 0px;
+  margin-top: 0;
+  padding-left: 800px;
+  padding-top: 140px;
+  padding-bottom: 90px;
+  padding-right: 20px;
+  height: 120px;
+  opacity: 1;
+  transition: 1.5s;
+}
+.body-programacion.active .superman {
+  height: 90px;
+  opacity: 1;
+}
+.body-programacion.active .body-programacion:hover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 1;
+  transition: 2s;
+}
+.body-programacion.active .h1-programacion {
+  padding-bottom: 10px;
+  margin: 0px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  color: rgb(7, 7, 7);
+  transition: 1s;
+}
+.body-programacion.active .h1-programacion:hover {
+  padding: 0px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  transition: 1s;
+}
+.body-programacion.active .letra-h1 {
+  color: rgba(255, 255, 255, 0.177);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7rem;
+  transition: 1s;
+}
+.body-programacion.active .letra-h1:hover {
+  transition: 0.3s;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7rem;
+  text-shadow: rgb(154, 255, 255) 0 0 8px;
+  margin-bottom: 10px;
+  color: aqua;
+}
+.body-programacion.active .nav-programacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.body-programacion.active .li-nav-programacion {
+  padding: 10px;
+  margin: 0px;
+  display: inline-block;
+}
+.body-programacion.active .a-programacion {
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+  border-radius: 20px;
+  color: black;
+  font-size: 1rem;
+  transition: 1s;
+}
+.body-programacion.active .a-programacion:hover {
+  transition: 0.5s;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 30px;
+  margin: 18px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  border-style: double;
+  border-color: aqua;
+  text-shadow: rgb(55, 255, 202) 0 0 4px;
+  box-shadow: aqua 10px 10px 200px 20px;
+  cursor: url("../img/cursor-1.png"), auto;
+}
+.body-programacion.active .p-programacion {
+  background-color: rgba(189, 226, 238, 0);
+  border-radius: 0;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+.body-programacion.active .p-programacion:hover {
+  background-color: rgb(31, 37, 39);
+  margin: 80px;
+  margin-top: 200px;
+  padding: 0px;
+  transition: 0.4s;
+  transform: translateY(-250px);
+  font-size: 2.5rem;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: aqua;
+}
+.body-programacion.active .diferencia {
+  color: rgba(255, 185, 63, 0.811);
+}
+.body-programacion.active .diferencia:hover {
+  color: rgb(255, 234, 0);
+  text-shadow: rgb(255, 234, 0) 0 0 5px;
+}
+.body-programacion.active .diferencia-aqua {
+  color: rgba(0, 255, 255, 0.549);
+}
+.body-programacion.active .diferencia-aqua:hover {
+  color: rgb(0, 247, 255);
+  text-shadow: rgb(0, 247, 255) 0 0 5px;
+}
+.body-programacion.active .diferencia-roja {
+  color: rgba(188, 60, 60, 0.824);
+}
+.body-programacion.active .diferencia-roja:hover {
+  color: red;
+  text-shadow: rgb(255, 74, 74) 0 0 5px;
+}
+.body-programacion.active .diferencia-dos-puntos {
+  color: rgba(183, 181, 181, 0.578);
+}
+.body-programacion.active .diferencia-dos-puntos:hover {
+  color: white;
+}
+.body-programacion.active .flecha {
+  color: rgba(14, 13, 13, 0);
+}
+.body-programacion.active .p-programacion-2 {
+  background-color: rgba(189, 226, 238, 0);
+  border-radius: 0;
+  padding: 100px;
+  padding-bottom: 0px;
+  padding-top: 0;
+  margin-top: 0px;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  transition: 0.5s;
+}
+.body-programacion.active .p-programacion-2:hover {
+  background-color: rgb(31, 37, 39);
+  color: rgba(188, 60, 60, 0.67);
+  padding-left: 48px;
+  padding-right: 48px;
+  margin: 50px;
+  margin-top: 150px;
+  transform: translateY(-50px);
+  transition: 0.8s;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: aqua;
+  box-shadow: aqua 10px 10px 200px 20px;
+}
+.body-programacion.active .p-roja {
+  color: rgba(128, 28, 28, 0.829);
+}
+.body-programacion.active .p-roja:hover {
+  color: red;
+  text-shadow: rgb(255, 81, 81) 0 0 5px;
+}
+.body-programacion.active .color-texto2 {
+  color: rgb(202, 209, 216);
+}
+.body-programacion.active .color-texto2:hover {
+  color: rgb(202, 209, 216);
+}
+.body-programacion.active .h2-programacion {
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  margin: 50px;
+  font-size: 3rem;
+  color: aqua;
+  border-radius: 20px;
+}
+.body-programacion.active .h2-programacion:hover {
+  border-style: double;
+  border-color: aqua;
+  box-shadow: 10px 10px 200px 20px aqua;
+}
+.body-programacion.active .articulo {
+  padding: 10px;
+  margin-bottom: 200px;
+  opacity: 0;
+  transform: translateY(-80px);
+  transition: 1s;
+}
+.body-programacion.active .articulo:hover {
+  background-color: rgba(189, 226, 238, 0);
+  padding: 100px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  opacity: 1;
+}
+.body-programacion.active .container-img {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  grid-column: 50% auto auto;
+}
+.body-programacion.active .img-1 {
+  height: 400px;
+  width: 270px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.body-programacion.active .p-mis-espectativas {
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.822);
+  padding: 20px;
+  padding-bottom: 15px;
+  font-size: 1.3rem;
+}
+.body-programacion.active .p-mis-espectativas:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.822);
+  padding: 20px;
+  padding-bottom: 15px;
+  border-style: double;
+  font-size: 1.3rem;
+  border-color: aqua;
+  box-shadow: 10px 10px 200px 20px aqua;
+}
+.body-programacion.active .contenedor-pla-sa {
+  display: flex;
+  opacity: 1;
+  transition: 1.5s;
+}
+.body-programacion.active .img-planeta {
+  height: 50px;
+  margin-left: 200px;
+  opacity: 0;
+  transition: 1.5s;
+}
+.body-programacion.active .img-planeta:hover {
+  opacity: 1;
+  transition: 0.4s;
+}
+.body-programacion.active .satelite {
+  height: 120px;
+  padding-left: 50px;
+  padding-right: 0px;
+  height: 100px;
+  margin-left: 50px;
+  opacity: 1;
+  transition: 35s;
+}
+.body-programacion.active .satelite:hover {
+  margin-left: 0px;
+  margin-top: 0;
+  padding-left: 600px;
+  padding-bottom: 110px;
+  padding-right: 20px;
+  height: 130px;
+  opacity: 1;
+  transition: 10s;
+  transform: rotate(10deg);
+}
+@media (max-width: 960px) {
+  .body-programacion.active .body-programacion {
+    opacity: 0.5;
+    transition: 0.2s;
+    cursor: url("../img/cursor-1.png"), auto;
+  }
+  .body-programacion.active .body-programacion:hover {
+    opacity: 1;
+    transition: 1s;
+  }
+  .body-programacion.active .audio {
+    opacity: 1;
+    height: 10px;
+    width: 200px;
+    border-radius: 0px;
+  }
+  .body-programacion.active .h1-programacion {
+    margin: 20px;
+    padding-left: 30px;
+    font-size: 2.5rem;
+    transition: 1s;
+  }
+  .body-programacion.active .h1-programacion:hover {
+    padding-left: 30px;
+    font-size: 3rem;
+    transition: 0.2s;
+  }
+  .body-programacion.active .letra-h1 {
+    color: rgba(255, 255, 255, 0.177);
+    font-size: 3rem;
+    transition: 0.8s;
+    margin: 0px;
+  }
+  .body-programacion.active .letra-h1:hover {
+    transition: 0.3s;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    margin: 0px;
+  }
+  .body-programacion.active .nav-programacion {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 0px;
+  }
+  .body-programacion.active .li-nav-programacion {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .body-programacion.active .a-programacion {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    border-style: double;
+    border-color: black;
+    border-radius: 20px;
+    color: black;
+    font-size: 1rem;
+    transition: 2s;
+  }
+  .body-programacion.active .a-programacion:hover {
+    transition: 0.3s;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px;
+    margin: 0px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+    text-shadow: rgb(55, 255, 202) 0 0 4px;
+    box-shadow: 10px 10px 200px 20px aqua;
+    cursor: url("../img/cursor-1.png"), auto;
+  }
+  .body-programacion.active .p-programacion {
+    background-color: rgb(31, 37, 39);
+    border-radius: 0;
+    font-size: 1.5rem;
+    margin: 0px;
+    padding: 0px;
+    transition: 0.5s;
+    border-style: groove;
+    border-color: rgba(0, 255, 255, 0.333);
+    transform: translateY(0px);
+  }
+  .body-programacion.active .p-programacion:hover {
+    background-color: rgb(31, 37, 39);
+    font-size: 1.5rem;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 0px;
+    transition: 0.8s;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: aqua;
+    box-shadow: aqua 0 0 15px;
+    transform: translateY(20px);
+  }
+  .body-programacion.active .diferencia-dos-puntos {
+    color: rgba(183, 181, 181, 0.578);
+    padding: 5px;
+  }
+  .body-programacion.active .diferencia-dos-puntos:hover {
+    padding: 5px;
+    color: white;
+    text-shadow: white 0 0 5px;
+  }
+  .body-programacion.active .p-programacion-2 {
+    background-color: rgba(189, 226, 238, 0);
+    border-radius: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin: 5px;
+    font-size: 1.1rem;
+    transition: 0.5s;
+    transform: translateY(0px);
+  }
+  .body-programacion.active .p-programacion-2:hover {
+    background-color: rgb(31, 37, 39);
+    color: rgba(188, 60, 60, 0.67);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 9px;
+    padding-top: 5px;
+    margin: 8px;
+    margin-top: 35px;
+    transition: 0.8s;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    border-style: groove;
+    border-color: aqua;
+    box-shadow: aqua 0 0 20px;
+    transform: translateY(0px);
+  }
+  .body-programacion.active .articulo {
+    padding: 20px;
+    margin-bottom: 20px;
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1s;
+  }
+  .body-programacion.active .articulo:hover {
+    background-color: rgba(189, 226, 238, 0);
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    opacity: 1;
+  }
+  .body-programacion.active .h2-programacion {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+    padding-top: 8px;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: aqua;
+    border-radius: 20px;
+  }
+  .body-programacion.active .h2-programacion:hover {
+    border-style: double;
+    border-color: aqua;
+    box-shadow: 10px 10px 200px 20px aqua;
+  }
+  .body-programacion.active .p-mis-espectativas {
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.822);
+    padding: 20px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  .body-programacion.active .p-mis-espectativas:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.822);
+    padding: 20px;
+    padding-bottom: 15px;
+    border-style: double;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border-color: aqua;
+    box-shadow: aqua 0 0 10px;
+  }
+  .body-programacion.active .div-superman {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    height: 0px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    opacity: 0;
+    transition: 10s;
+  }
+  .body-programacion.active .div-superman:hover {
+    margin-left: 0px;
+    margin-top: 0;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-right: 0px;
+    height: 0px;
+    opacity: 0;
+    transition: 0s;
+  }
+  .body-programacion.active .superman {
+    height: 9px;
+  }
+  .body-programacion.active .satelite {
+    height: 300px;
+    width: 150px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 100px;
+    margin-left: 50px;
+    opacity: 1;
+    transition: 35s;
+  }
+  .body-programacion.active .satelite:hover {
+    margin-left: 0px;
+    margin-top: 0;
+    padding-left: 200px;
+    padding-bottom: 180px;
+    padding-right: 20px;
+    height: 130px;
+    opacity: 1;
+    transition: 12s;
+    transform: rotate(100deg);
+  }
+  .body-programacion.active .img-planeta {
+    height: 50px;
+    margin-left: 20px;
+    opacity: 1;
+    transition: 0s;
+  }
+  .body-programacion.active .img-planeta:hover {
+    opacity: 1;
+    transition: 0s;
+  }
+  .body-programacion.active .img-1 {
+    height: 150px;
+    width: auto;
+    padding: 0px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .body-programacion.active .body-programacion {
+    background-image: url(../img/fondo-programacion.jpeg);
+    background-repeat: initial;
+    background-size: contain;
+    background-attachment: fixed;
+    opacity: 1;
+    transition: 0.2s;
+    cursor: url("../img/cursor-1.png"), auto;
+  }
+  .body-programacion.active .body-programacion:hover {
+    opacity: 1;
+    transition: 1s;
+  }
+  .body-programacion.active .audio {
+    opacity: 0;
+    height: 500px;
+    width: 0px;
+    border-radius: 0px;
+  }
+  .body-programacion.active .h1-programacion {
+    display: none;
+    justify-content: none;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    font-size: 1rem;
+    transition: 0s;
+  }
+  .body-programacion.active .h1-programacion:hover {
+    padding: 0px;
+    padding-left: 0px;
+    font-size: 1.1rem;
+    transition: 0s;
+  }
+  .body-programacion.active .letra-h1 {
+    color: rgba(255, 255, 255, 0.177);
+    font-size: 2rem;
+    transition: 0s;
+    margin: 2px;
+  }
+  .body-programacion.active .letra-h1:hover {
+    transition: 0s;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+  }
+  .body-programacion.active .nav-programacion {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 0px;
+  }
+  .body-programacion.active .li-nav-programacion {
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .body-programacion.active .a-programacion {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    border-style: double;
+    border-color: black;
+    border-radius: 20px;
+    color: black;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  .body-programacion.active .a-programacion:hover {
+    transition: 0.3s;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+    text-shadow: rgb(55, 255, 202) 0 0 4px;
+    box-shadow: 10px 10px 200px 20px aqua;
+    cursor: url("../img/cursor-1.png"), auto;
+  }
+  .body-programacion.active .p-programacion {
+    background-color: rgb(31, 37, 39);
+    border-radius: 0;
+    font-size: 1rem;
+    margin-top: 0px;
+    margin: 5px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-style: groove;
+    border-color: rgba(0, 255, 255, 0.333);
+    transform: translateY(0px);
+    transition: 1s;
+  }
+  .body-programacion.active .p-programacion:hover {
+    background-color: rgb(31, 37, 39);
+    font-size: 1rem;
+    padding-left: 0px;
+    margin: 0px;
+    transition: 0.8s;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: aqua;
+    box-shadow: aqua 0 0 15px;
+    transform: translateY(0px);
+  }
+  .body-programacion.active .p-programacion-2 {
+    background-color: rgba(189, 226, 238, 0);
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-top: 0;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin: 5px;
+    font-size: 1rem;
+    transition: 0.8s;
+    transform: translateY(0px);
+  }
+  .body-programacion.active .p-programacion-2:hover {
+    background-color: rgb(31, 37, 39);
+    color: rgba(188, 60, 60, 0.67);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    margin-top: 40px;
+    transition: 0.8s;
+    border-radius: 5px;
+    font-size: 1rem;
+    border-style: groove;
+    border-color: aqua;
+    box-shadow: aqua 0 0 20px;
+    transform: translateY(0px);
+  }
+  .body-programacion.active .articulo {
+    padding: 10px;
+    margin-bottom: 20px;
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1s;
+  }
+  .body-programacion.active .letra-h1:hover {
+    transition: 0.2s;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: aqua;
+  }
+  .body-programacion.active .h2-programacion {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+    padding-top: 8px;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: aqua;
+    border-radius: 20px;
+  }
+  .body-programacion.active .h2-programacion:hover {
+    border-style: double;
+    border-color: aqua;
+    box-shadow: 10px 10px 200px 20px aqua;
+  }
+  .body-programacion.active .p-mis-espectativas {
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.822);
+    padding: 20px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  .body-programacion.active .p-mis-espectativas:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.822);
+    padding: 20px;
+    padding-bottom: 15px;
+    border-style: double;
+    border-radius: 5px;
+    font-size: 1rem;
+    border-color: aqua;
+    box-shadow: aqua 0 0 10px;
+  }
+  .body-programacion.active .div-superman {
+    position: absolute;
+    padding-right: 0px;
+    padding-left: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0s;
+  }
+  .body-programacion.active .div-superman:hover {
+    left: 0%;
+    opacity: 0;
+    transition: 0s;
+  }
+  .body-programacion.active .img-planeta {
+    height: 50px;
+    margin-left: 20px;
+    opacity: 1;
+    transition: 0s;
+  }
+  .body-programacion.active .img-planeta:hover {
+    opacity: 1;
+    transition: 0s;
+  }
+  .body-programacion.active .img-1 {
+    height: 100px;
+    width: auto;
+    padding: 0px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  .body-programacion.active .satelite {
+    height: 300px;
+    width: 150px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 100px;
+    margin-left: 50px;
+    opacity: 1;
+    transition: 35s;
+  }
+  .body-programacion.active .satelite:hover {
+    margin-left: 0px;
+    margin-top: 0;
+    padding-left: 200px;
+    padding-bottom: 180px;
+    padding-right: 20px;
+    height: 130px;
+    opacity: 1;
+    transition: 12s;
+    transform: rotate(100deg);
+  }
+}
+
+#toggle {
+  position: relative;
+  display: block;
+  width: 70px;
+  height: 25px;
+  margin-left: 30px;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  border-radius: 160px;
+  background: #222;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1), 0 8px 10px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#toggle.active {
+  background: #fff;
+  box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.2), inset 0 2px 8px rgba(0, 0, 0, 0.1), inset 0 -4px 4px rgba(0, 0, 0, 0.2);
+}
+
+#toggle .indicador {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(to bottom, #444, #222);
+  border-radius: 50%;
+  transform: scale(0.6);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5), inset 0 4px 4px rgba(255, 255, 255, 0.2), inset 0 -4px 4px rgba(255, 255, 255, 0.2);
+  transition: 0.5s;
+}
+
+#toggle.active .indicador {
+  left: 40px;
+  background: linear-gradient(to bottom, #eaeaea, #f9f9f9);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1), inset 0 4px 4px rgb(255, 255, 255), inset 0 -4px 4px rgb(255, 255, 255);
+}
+
+.container-toggle {
+  height: 70px;
+  margin-right: 20px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
+}/*# sourceMappingURL=sass.css.map */
